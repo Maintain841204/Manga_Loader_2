@@ -1,6 +1,6 @@
 {
   "functions": {
-     "api/*.js": {
+    "api/*.js": {
       "maxDuration": 30
     }
   },
@@ -27,7 +27,7 @@
       ]
     },
     {
-       "source": "/api/(.*)",
+      "source": "/api/(.*)",
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
