@@ -1,5 +1,5 @@
 class MangaDownloader {
-    constructor(apiBaseUrl = 'https://your-app.vercel.app') {
+    constructor(apiBaseUrl = 'https://manga-loader-2-ywpa.vercel.app') {
         this.apiBaseUrl = apiBaseUrl;
         this.scanner = new ImageScanner();
         this.ui = new OverlayUI(this.handleDownload.bind(this));
