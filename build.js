@@ -56,7 +56,7 @@ async function buildBookmarklet() {
     const bookmarkletURL = `javascript:(function(){
         if(window.mangaDownloaderActive) return;
         const s=document.createElement('script');
-        s.src='https://your-app.vercel.app/bookmarklet.js';
+        s.src='https://manga-loader-2-ywpa.vercel.app/bookmarklet.js';
         s.onload=()=>console.log('Manga Downloader loaded');
         s.onerror=()=>console.error('Failed to load Manga Downloader');
         document.head.appendChild(s);
